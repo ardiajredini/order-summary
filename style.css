@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-color:hsl(225, 100%, 94%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main{
+    height: 620px;
+    width: 400px;
+    margin: 120px auto;
+    border-radius: 15px;
+    background-image: url("images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: 5px 15px 25px hsl(220, 4%, 86%);
+    text-align: center;
+}
+
+.container{
+    padding-top: 230px;
+}
+
+.container h1{
+    f
+    font-weight: 900;
+}
+
+.container p {
+    
+    line-height: 8px;
+    color: gray;
+    font-weight: 500;
+}
+
+.btn{
+    width: 320px;
+    height: 45px;
+    color: white;
+    background-color: #382AE1;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 4px 8px 10px #cecece;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;   
+}
+
+.btn:hover{
+    box-shadow: 5px 10px 5px #ebebeb ;
+    
+}
+
+
+.text .paraghraph{
+    font-weight:900;
+    color: black;
+    font-size: 16px;
+}
+
+.under-p{
+    font-size: 14px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    align-items: center;
+    margin: 30px;
+}
+
+.txt a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(226, 6%, 56%);
+}
+
+.link a{
+    color: blue;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+.link a:hover{
+    text-decoration: none;
+    transition: all 3s ease;
+    
+}
+   
+
