@@ -29,7 +29,7 @@ body{
 }
 
 .container h1{
-    f
+    color: #18283F;
     font-weight: 900;
 }
 
@@ -55,14 +55,14 @@ body{
 }
 
 .btn:hover{
-    box-shadow: 5px 10px 5px #ebebeb ;
-    
+   transition: all 0.5s ease; 
+   opacity: 0.5;  
 }
 
 
 .text .paraghraph{
     font-weight:900;
-    color: black;
+    color: #18283F;
     font-size: 16px;
 }
 
@@ -83,19 +83,24 @@ body{
     font-size: 14px;
     color: hsl(226, 6%, 56%);
 }
+.txt a:hover{
+    color: #102138;
+    transition: all 0.5s ease;
+}
 
 .link a{
     color: blue;
     font-weight: 700;
     font-size: 14px;
+   
 }
 
 
 
 .link a:hover{
     text-decoration: none;
-    transition: all 3s ease;
-    
+    transition: all 0.5s ease;
+    opacity: 0.5;
 }
    
 
